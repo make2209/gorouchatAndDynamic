@@ -3,15 +3,15 @@ package controller
 import (
 	"context"
 	"github.com/gin-gonic/gin"
+	"groupChatAndDynamic/api/request"
+	"groupChatAndDynamic/api/response"
+	"groupChatAndDynamic/inits"
+	"groupChatAndDynamic/model"
+	"groupChatAndDynamic/pkg"
+	"groupChatAndDynamic/utils"
 	"math/rand"
 	"strconv"
 	"time"
-	"zk0212/api/request"
-	"zk0212/api/response"
-	"zk0212/inits"
-	"zk0212/model"
-	"zk0212/pkg"
-	"zk0212/utils"
 )
 
 func UserLoginAndCreate(c *gin.Context) {

@@ -2,8 +2,8 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"zk0212/api"
-	"zk0212/inits"
+	"groupChatAndDynamic/api"
+	"groupChatAndDynamic/inits"
 )
 
 func main() {

@@ -1,4 +1,4 @@
-module zk0212
+module github.com/make2209/groupChatAndDynamic
 
 go 1.23.6
 

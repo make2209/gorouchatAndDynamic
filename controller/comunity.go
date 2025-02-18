@@ -3,11 +3,11 @@ package controller
 import (
 	"fmt"
 	"github.com/gin-gonic/gin"
+	"groupChatAndDynamic/api/request"
+	"groupChatAndDynamic/api/response"
+	"groupChatAndDynamic/inits"
+	"groupChatAndDynamic/model"
 	"strconv"
-	"zk0212/api/request"
-	"zk0212/api/response"
-	"zk0212/inits"
-	"zk0212/model"
 )
 
 func DynamicAdd(c *gin.Context) {
